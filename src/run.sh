@@ -1,0 +1,2 @@
+export OPENAI_API_KEY='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'
+python3 chatbot.py

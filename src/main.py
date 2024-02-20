@@ -12,8 +12,9 @@ import openai
 from dotenv import load_dotenv
 load_dotenv()
 # key : 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 (kaustubh's a/c)
+# new key: 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
 openai.api_key = os.getenv("OPEN_API_KEY")
-
+# openai.api_key = "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"
 #create a web based loader to load data from ivanti wiki page
 loader = WebBaseLoader("https://en.wikipedia.org/wiki/Ivanti")
 
